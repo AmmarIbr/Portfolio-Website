@@ -30,13 +30,13 @@
       <nav>
         <ul>
           <li class="header">
-            <a href="aboutpage.html">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li class="header">
-            <a href="timeline.html">About Me</a>
+            <a href="#scrollabout">About Me</a>
           </li>
           <li class="header">
-            <a href="contact.html">Experience</a>
+            <a href="#scrollexp">Experience</a>
           </li>
           <li class="header">
             <a href="contact.html">Education</a>
@@ -45,16 +45,60 @@
       </nav>
     </header>
 
-    <article class="home">
+    <article id="home">
       <section id="homecontent">
         <h2>Aspiring Software Engineer</h2>
         <h1>Hello, I'm Ammar</h1>
         <p>
           I am a Mechanical Engineer aspiring to become a Software Engineer.
         </p>
-        <button id="resumebtn">Download Resume</button>
+        <a
+          href="./Ammar Ibrahim-Resume-TTC.pdf"
+          download="Ammar Ibrahim-Resume-TTC.pdf"
+          ><button id="resumebtn">Download Resume</button></a
+        >
       </section>
-      <img src="/Intro Picture.png" alt="Intro Picture" />
+      <img src="./Intro Picture.png" alt="Intro Picture" />
+    </article>
+
+    <section id="aboutheader">
+      <h5 id="scrollabout">About</h5>
+      <h1 style="font-size: 3em">About me</h1>
+    </section>
+
+    <article id="aboutme">
+      <img id="aboutpic" src="./About Picture.jpg" alt="Intro Picture" />
+      <section>
+        <p id="aboutmecontent">
+          I started my journey graduating as a Mechanical Engineer, however I
+          always wanted to continue my education. I started with learning about
+          python through a coursera course which has set good foundational
+          knoweldge. Recently, I have decieded to fully dedicate my time to
+          coding and learning as much as I can to be able to venture into the
+          tech world. I am starting with HTML, and CSS and about to being
+          learning JavaScript.
+        </p>
+      </section>
+    </article>
+
+    <section id="experienceheader">
+      <h5 id="scrollexp">Experience</h5>
+      <h1 style="font-size: 3em">My Experience</h1>
+    </section>
+
+    <article id="experience">
+      <img id="aboutsec" src="./Intro Picture.png" alt="Intro Picture" />
+      <section>
+        <p id="aboutmecontent">
+          I started my jorney graduating as a Mechanical Engineer, however I
+          always wanted to continue my education. I started with learning about
+          python through a coursera course which has set good foundational
+          knoweldge. Recently, I have decieded to fully dedicate my time to
+          coding and learning as much as I can to be able to venture into the
+          tech world. I am starting with HTML, and CSS and about to being
+          learning JavaScript.
+        </p>
+      </section>
     </article>
   </body>
 </html>
